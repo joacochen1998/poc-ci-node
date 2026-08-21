@@ -16,7 +16,7 @@ jobs:
     # Definimos la matriz para probar en varias versiones de Node.js
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [20.x]
 
     steps:
       - name: 1. Descargar el código del repositorio
