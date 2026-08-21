@@ -8,6 +8,6 @@ function restar(a, b) {
 
 function multiplicar(a, b) {
   return a * b;
-}
+} 
 
 module.exports = { sumar, restar, multiplicar };
