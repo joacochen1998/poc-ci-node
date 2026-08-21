@@ -1,0 +1,12 @@
+{
+  "name": "poc-ci-node",
+  "version": "1.0.0",
+  "description": "Prueba de concepto de CI con Node.js y GitHub Actions",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest --ci --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
